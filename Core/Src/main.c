@@ -91,11 +91,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
+int i=0;
   while (1)
   {
-	  setAllclock();
 	  clearAllclock();
+	  setNumberOnClock(i);
+	  i++;
+	  if(i>11)i=0;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

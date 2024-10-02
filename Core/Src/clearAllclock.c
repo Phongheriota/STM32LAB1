@@ -19,6 +19,5 @@ void clearAllclock()
 	HAL_GPIO_WritePin(LED10_GPIO_Port, LED10_Pin, RESET);
 	HAL_GPIO_WritePin(LED11_GPIO_Port, LED11_Pin, RESET);
 	HAL_GPIO_WritePin(LED12_GPIO_Port, LED12_Pin, RESET);
-	HAL_Delay(500);
 }
 

@@ -8,6 +8,7 @@ C_SRCS += \
 ../Core/Src/clearAllclock.c \
 ../Core/Src/main.c \
 ../Core/Src/setAllclock.c \
+../Core/Src/setNumberOnClock.c \
 ../Core/Src/stm32f1xx_hal_msp.c \
 ../Core/Src/stm32f1xx_it.c \
 ../Core/Src/syscalls.c \
@@ -18,6 +19,7 @@ OBJS += \
 ./Core/Src/clearAllclock.o \
 ./Core/Src/main.o \
 ./Core/Src/setAllclock.o \
+./Core/Src/setNumberOnClock.o \
 ./Core/Src/stm32f1xx_hal_msp.o \
 ./Core/Src/stm32f1xx_it.o \
 ./Core/Src/syscalls.o \
@@ -28,6 +30,7 @@ C_DEPS += \
 ./Core/Src/clearAllclock.d \
 ./Core/Src/main.d \
 ./Core/Src/setAllclock.d \
+./Core/Src/setNumberOnClock.d \
 ./Core/Src/stm32f1xx_hal_msp.d \
 ./Core/Src/stm32f1xx_it.d \
 ./Core/Src/syscalls.d \
