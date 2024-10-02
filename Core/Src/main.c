@@ -91,14 +91,30 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-int i=0;
+
+clearAllclock();
+int hour=0;
+int minute=0;
+int second=0;
   while (1)
   {
-	  setAllclock();
-	  clearNumberOnClock(i);
-	  HAL_Delay(1000);
-	  i++;
-	  if(i>11)i=0;
+	  displayClock(hour, minute, second);
+		second++;
+		if(second>60)
+		{
+			minute++;
+			second=0;
+		}
+		if(minute>60)
+		{
+			hour++;
+			minute=0;
+		}
+		if(hour>12)
+		{
+			hour=0;
+		}
+		HAL_Delay(50);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

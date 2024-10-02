@@ -21,6 +21,6 @@ void setAllclock()
 	HAL_GPIO_WritePin(LED10_GPIO_Port, LED10_Pin, SET);
 	HAL_GPIO_WritePin(LED11_GPIO_Port, LED11_Pin, SET);
 	HAL_GPIO_WritePin(LED12_GPIO_Port, LED12_Pin, SET);
-	HAL_Delay(500);
+
 }
 
