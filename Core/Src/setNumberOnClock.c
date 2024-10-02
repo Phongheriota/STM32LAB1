@@ -40,5 +40,5 @@ void setNumberOnClock(int x)
 		HAL_GPIO_WritePin(LED12_GPIO_Port, LED12_Pin,SET);
 		break;
 	}
-HAL_Delay(500);
+
 }

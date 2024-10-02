@@ -94,8 +94,9 @@ int main(void)
 int i=0;
   while (1)
   {
-	  clearAllclock();
-	  setNumberOnClock(i);
+	  setAllclock();
+	  clearNumberOnClock(i);
+	  HAL_Delay(1000);
 	  i++;
 	  if(i>11)i=0;
     /* USER CODE END WHILE */

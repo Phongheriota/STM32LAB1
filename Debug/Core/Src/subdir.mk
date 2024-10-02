@@ -6,6 +6,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Core/Src/clearAllclock.c \
+../Core/Src/clearNumberOnClock.c \
 ../Core/Src/main.c \
 ../Core/Src/setAllclock.c \
 ../Core/Src/setNumberOnClock.c \
@@ -17,6 +18,7 @@ C_SRCS += \
 
 OBJS += \
 ./Core/Src/clearAllclock.o \
+./Core/Src/clearNumberOnClock.o \
 ./Core/Src/main.o \
 ./Core/Src/setAllclock.o \
 ./Core/Src/setNumberOnClock.o \
@@ -28,6 +30,7 @@ OBJS += \
 
 C_DEPS += \
 ./Core/Src/clearAllclock.d \
+./Core/Src/clearNumberOnClock.d \
 ./Core/Src/main.d \
 ./Core/Src/setAllclock.d \
 ./Core/Src/setNumberOnClock.d \
