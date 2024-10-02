@@ -1,4 +1,4 @@
-Core/Src/12LED.o: ../Core/Src/12LED.c ../Core/Inc/main.h \
+Core/Src/setAllclock.o: ../Core/Src/setAllclock.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
